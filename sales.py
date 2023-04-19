@@ -26,7 +26,7 @@ class Sales:
     
     def list_sales(self):
         for sale in self.sales:
-            print(f"{sale.item_name}, {sale.quantity}, {sale.total_price}")
+            print(f"{sale.item_name}, {sale.quantity}, {sale.total_price}, {sale.date}")
 
         
 
